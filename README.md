@@ -8,3 +8,6 @@
     `console.log('Hello from ts');`
 
     ## To compile `tsc types.ts`
+    
+# 03 - Create Index.html and include the javascript file
+    `<script src="types.js"></script>`
