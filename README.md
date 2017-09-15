@@ -4,4 +4,7 @@
 
        ## To check version of typescript
         `tsc --v`
-# 02 - 
+# 02 - Create typescript file types.ts and compile
+    `console.log('Hello from ts');`
+
+    ## To compile `tsc types.ts`
