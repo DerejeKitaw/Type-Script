@@ -21,3 +21,5 @@
      console.log(myString);`
 
 #05 - Create typescript functions
+
+    # specify data type
