@@ -1,4 +1,11 @@
-class User{
+interface UserInterface{
+    name: string;
+    email:string;
+    age:number;
+    register();
+    payInvoice();
+}
+class User implements   UserInterface{
     name: string;
     email:string;
     age:number;
