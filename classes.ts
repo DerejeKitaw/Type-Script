@@ -43,3 +43,6 @@ class Member extends User{
         super.payInvoice();
     }
 }
+
+let winta: User = new Member(1, 'Winta Tesfaye','wtesfaye@gmail.com',9);
+winta.payInvoice();

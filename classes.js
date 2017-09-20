@@ -43,3 +43,5 @@ var Member = /** @class */ (function (_super) {
     };
     return Member;
 }(User));
+var winta = new Member(1, 'Winta Tesfaye', 'wtesfaye@gmail.com', 9);
+winta.payInvoice();
