@@ -14,8 +14,13 @@ let mySum =function(num1:any, num2:any){
 }
 console.log('mySum = '+mySum('1','5'));
 
-function getName(firstName:string, lastName:string): string {
+function getName(firstName:string, lastName?:string): string {
+    // when only one argument passed return first name only - descard undifined
+    if(lastName == undefined){
+        return firstName;
+    }
     return firstName + ' ' + lastName;
 }
 
-console.log(getName('Dereje', 'Kitaw'))
+console.log(getName('Dereje', 'Kitaw'));
+console.log(getName('Dereje'));

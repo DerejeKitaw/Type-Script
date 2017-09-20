@@ -13,6 +13,11 @@ var mySum = function (num1, num2) {
 };
 console.log('mySum = ' + mySum('1', '5'));
 function getName(firstName, lastName) {
+    // when only one argument passed return first name only - descard undifined
+    if (lastName == undefined) {
+        return firstName;
+    }
     return firstName + ' ' + lastName;
 }
 console.log(getName('Dereje', 'Kitaw'));
+console.log(getName('Dereje'));
