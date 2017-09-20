@@ -1,3 +1,5 @@
+"use strict";
+var inheritance_1 = require("./inheritance");
 // console.log('Hello from ts');
 var myString;
 var myNum;
@@ -30,3 +32,7 @@ console.log('myVar =' + myVar);
 console.log('strNumTuple =' + strNumTuple);
 console.log('myVoid1 =' + myVoid1);
 console.log('myVoid2 =' + myVoid2);
+var sam = new inheritance_1.Snake("Sammy the Python");
+var tom = new inheritance_1.Horse("Tommy the Palomino");
+sam.move();
+tom.move(34);

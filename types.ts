@@ -1,3 +1,4 @@
+import {Animal,Snake,Horse} from './inheritance';
 // console.log('Hello from ts');
 
 let myString: string;
@@ -38,3 +39,9 @@ console.log('myVar ='+ myVar);
 console.log('strNumTuple ='+ strNumTuple);
 console.log('myVoid1 ='+ myVoid1);
 console.log('myVoid2 ='+ myVoid2);
+
+let sam = new Snake("Sammy the Python");
+let tom: Animal = new Horse("Tommy the Palomino");
+
+sam.move();
+tom.move(34);
