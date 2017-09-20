@@ -24,3 +24,9 @@ function getName(firstName:string, lastName?:string): string {
 
 console.log(getName('Dereje', 'Kitaw'));
 console.log(getName('Dereje'));
+
+
+function myVoid(): void{
+    // return is posible but not any other datatypes like return 3; is not possible
+    return ;
+}
