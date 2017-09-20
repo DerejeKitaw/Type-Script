@@ -1,30 +1,22 @@
-export class Animal {
-    constructor(public name: string) { }
-    move(distanceInMeters: number = 0) {
-        console.log(`${this.name} moved ${distanceInMeters}m.`);
-    }
+function showTodo(todo:{title: string, text: string}){
+    console.log(todo.title + ' : '+ todo.text);
 }
 
-export class Snake extends Animal {
-    constructor(name: string) { super(name); }
-    move(distanceInMeters = 5) {
-        console.log("Slithering...");
-        super.move(distanceInMeters);
-    }
+let myTodo = {title:'Trash', text:'Take out trash'}
+
+showTodo(myTodo);
+
+
+// ******** Better way of doing the above ******************************* //
+interface Todo{
+    title: string;
+    text: string;
 }
 
-export class Horse extends Animal {
-    constructor(name: string) { super(name); }
-    move(distanceInMeters = 45) {
-        console.log("Galloping...");
-        super.move(distanceInMeters);
-    }
+function showTodo_1(todo: Todo){
+    console.log(todo.title + ' : '+ todo.text);
 }
 
-// let sam = new Snake("Sammy the Python");
-// let tom: Animal = new Horse("Tommy the Palomino");
+let myTodo_1 = {title:'Food', text:'cook food'}
 
-// sam.move();
-// tom.move(34);
-
-// export  {Animal,Snake,Horse};
+showTodo_1(myTodo_1);
