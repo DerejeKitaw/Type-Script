@@ -1,4 +1,5 @@
 "use strict";
+exports.__esModule = true;
 var inheritance_1 = require("./inheritance");
 // console.log('Hello from ts');
 var myString;
