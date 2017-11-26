@@ -7,23 +7,23 @@ class Car {
     private _engine: Engine;
 
     constructor (engine: Engine){
-        this.setEngine (engine);
+        this._engine = engine;
     }
 
     
-     getEngine() : Engine {
+     get engine() : Engine {
         return this._engine;
     }
 
     
-     setEngine(value : Engine) {
+     set engine(value : Engine) {
         if (value == undefined) throw "Please supply an engine";
         
         this._engine = value;
     }
 
     start() : void {
-        alert('Car engine started now' + this._engine.engineType);
+        alert('Car engine started ' + this._engine.engineType);
     }
     
     
