@@ -14,12 +14,12 @@
 # 03 - Create Index.html and include the javascript file
     `<script src="types.js"></script>`
 
-#04 - Create typescript datatypes
+# 04 - Create typescript datatypes
 
     `let myString: string;
      myString='hello world';
      console.log(myString);`
 
-#05 - Create typescript functions
+# 05 - Create typescript functions
 
     # specify data type
