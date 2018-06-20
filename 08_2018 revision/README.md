@@ -53,7 +53,7 @@ npm install lite-server --save-dev
 ```
 tsc --init
 ``` 
-> run `tsc` -> this will compiles app.ts
+> run `tsc --watch` -> this will compiles app.ts
 
 ### run app
 ```
