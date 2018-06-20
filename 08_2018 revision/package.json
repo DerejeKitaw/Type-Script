@@ -1,0 +1,14 @@
+{
+  "name": "08_2018-revision",
+  "version": "1.0.0",
+  "description": "Type script review",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
