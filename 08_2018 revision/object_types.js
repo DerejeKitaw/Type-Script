@@ -48,3 +48,4 @@ var canBeNull = 12;
 // canBeNull = null; // work in typescript 2 and "strictNullChecks": true, in tsconfig.json
 var canAlsoBeNull;
 canAlsoBeNull = null; // this will make `canAlsoBeNull` type to null so canAlsoBeNull = 12; will through error
+//# sourceMappingURL=object_types.js.map

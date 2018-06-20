@@ -85,3 +85,4 @@ var myMultiply1;
 // myMultiply1 = sayHello; // will through error
 myMultiply1 = multiply;
 console.log(myMultiply1(4, 3)); // return 12
+//# sourceMappingURL=app.js.map
