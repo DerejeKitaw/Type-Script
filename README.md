@@ -24,3 +24,8 @@
 # 05 - Create typescript functions
 
     # specify data type
+
+# 06 - Initialize typescript
+```
+tsc --init
+```
