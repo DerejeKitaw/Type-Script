@@ -1,4 +1,4 @@
 {
     "typescript.referencesCodeLens.enabled": true,
-    
+    "files.autoSave": "off"
 }
